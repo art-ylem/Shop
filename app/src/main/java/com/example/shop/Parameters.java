@@ -4,6 +4,10 @@ public class Parameters {
     private String productId;
     private String color;
 
+    public Parameters(String productId, String color) {
+        this.productId = productId;
+        this.color = color;
+    }
     public String getColor() {
         return color;
     }
@@ -28,8 +32,5 @@ public class Parameters {
 
     }
 
-    public Parameters(String productId, String color) {
-        this.productId = productId;
-        this.color = color;
-    }
+
 }
