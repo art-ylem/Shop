@@ -1,7 +1,7 @@
 package com.example.shop;
 
 public class Parameters {
-    private long productNum;
+    private String productId;
     private String color;
 
     public String getColor() {
@@ -12,24 +12,24 @@ public class Parameters {
         this.color = color;
     }
 
-    public long getProductNum() {
-        return productNum;
+    public String getProductId() {
+        return productId;
     }
 
-    public void setProductNum(long productNum) {
-        this.productNum = productNum;
+    public void setProductId(String productId) {
+        this.productId = productId;
     }
 
     public void deliver(){
 
     }
 
-    public void Sell(){
+    public void sell(){
 
     }
 
-    public Parameters(long productNum, String color) {
-        this.productNum = productNum;
+    public Parameters(String productId, String color) {
+        this.productId = productId;
         this.color = color;
     }
 }
