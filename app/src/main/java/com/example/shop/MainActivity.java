@@ -10,10 +10,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Bicycle megaBicycle = new Bicycle("015", "black");
-        Scooter miniScooter = new Scooter("07","white");
-        Helmet strongHelmet = new Helmet("05","black");
-        Boots goodBoots = new Boots("13","grey");
+        Mechanism megaBicycle = new Bicycle("015", "black");
+        Mechanism miniScooter = new Scooter("07","white");
+        Parameters strongHelmet = new Helmet("05","black");
+        Parameters goodBoots = new Boots("13","grey");
 
         goodBoots.deliver();
         strongHelmet.sell();
